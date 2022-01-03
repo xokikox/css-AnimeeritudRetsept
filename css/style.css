@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Shizuru&display=swap');
+
+
+body {
+    background-color: rgb(235, 230, 192);
+}
+
+.heading {
+text-align: center;
+padding-top: 2rem;
+}
+
+.playground-heading {
+position: relative; /*top-right-bottom-left*/
+font-family: 'Bebas Neue', cursive;
+font-size: 3rem;
+color: rgb(201, 201, 54);
+animation: animation1;
+animation-duration: 3s;
+animation-fill-mode: forwards;
+/*animation-iteration-count: infinite;*/
+}
+
+@keyframes animation1 {
+    0% {top: -250px}
+    100% {top: 40px}
+}
+
+.koostis {
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 0rem;
+    padding-bottom: 2rem;
+    color: rgb(70, 66, 66); 
+}
+
+.koostisosad {
+    border: 1px solid grey;
+    margin: 0 auto;   
+}
+
+.valmistamine {
+    margin: 0 auto;
+    width: 50%;
+    padding: 0rem;
+    color: rgb(70, 66, 66);
+
+}
+
+.pealk {
+position: relative;
+ text-align: center;
+ font-family: 'Bebas Neue', cursive;
+ font-size: 3rem;
+ color: rgb(204, 204, 62);
+ padding-bottom: 0px;
+ padding-top: 0px;
+ animation: animation2;
+animation-duration: 3s;
+animation-timing-function: ease-in-out;
+}
+@keyframes animation2 {
+    0% {left: -1000px;}   
+    100% {left: 0px;}
+}
+
+.valmistamine ol {
+margin: 0 auto;
+width: 75%;
+border: 1px solid grey;
+padding-bottom: 1rem;
+padding-top: 1rem;
+
+}
+
+.keeksike {
+ text-align: center;
+ padding: 1rem;
+ animation: animation3;
+animation-duration: 5s;
+animation-fill-mode: forwards;
+
+}
+
+@keyframes animation3 {
+    0% {opacity: 0;} /*0 - 1*/
+    100% {opacity: 1;}
+}
